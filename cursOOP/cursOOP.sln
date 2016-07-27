@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cursOOP", "cursOOP\cursOOP.csproj", "{47CCB7D5-C61E-4C7E-9D21-F9CE1FED7C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPLibrary", "OOPLibrary\OOPLibrary.csproj", "{096F3DFE-5948-45E3-8ADF-37F4DD1AA4A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47CCB7D5-C61E-4C7E-9D21-F9CE1FED7C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CCB7D5-C61E-4C7E-9D21-F9CE1FED7C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CCB7D5-C61E-4C7E-9D21-F9CE1FED7C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CCB7D5-C61E-4C7E-9D21-F9CE1FED7C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096F3DFE-5948-45E3-8ADF-37F4DD1AA4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096F3DFE-5948-45E3-8ADF-37F4DD1AA4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096F3DFE-5948-45E3-8ADF-37F4DD1AA4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096F3DFE-5948-45E3-8ADF-37F4DD1AA4A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

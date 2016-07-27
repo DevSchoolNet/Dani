@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOPLibrary.User">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAAAAAAAAYAAAAAAAACAAAQAgAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPLibrary.Employee">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAAAAQAAACAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPLibrary.FrontOffice">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrontOffice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOPLibrary.BackOffice">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BackOffice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPLibrary.Customer">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <InheritanceLine Type="OOPLibrary.User" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="0.5" />
+        <Point X="1.25" Y="0.26" />
+        <Point X="5.688" Y="0.26" />
+        <Point X="5.688" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPLibrary.IndividualPerson">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="OOPLibrary.Customer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="3.075" />
+        <Point X="5.062" Y="3.075" />
+        <Point X="5.062" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>IndividualPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPLibrary.JPersonIM">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="OOPLibrary.Customer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.375" Y="4.069" />
+        <Point X="6.375" Y="4.838" />
+        <Point X="7.25" Y="4.838" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>JPersonIM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPLibrary.JPersonIMM">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <InheritanceLine Type="OOPLibrary.Customer" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="2" />
+        <Point X="6.25" Y="1.714" />
+        <Point X="7.5" Y="1.714" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>JPersonIMM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
